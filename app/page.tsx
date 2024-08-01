@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Heart from "./components/Heart";
+import { BackgroundGradientAnimationDemo } from "./components/Heart";
 
 export default function Home() {
   return (
     <main className="">
-      <Heart/>
+      <BackgroundGradientAnimationDemo/>
     </main>
   );
 }
